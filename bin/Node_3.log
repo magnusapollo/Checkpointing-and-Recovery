@@ -1,0 +1,389 @@
+Connected to 1
+Message sent: 3
+Connected to 2
+Message sent: 3
+All connections established!
+Resuming App...
+Node 3 initiating checkpointing.
+Taking a permanent checkpoint
+Checkpoint: 1500.0
+3
+4
+0,0,0,0,
+-1,-1,-1,-1,
+-1,-1,-1,-1,
+-1,-1,-1,-1,
+
+App sleeping for 137 milliseconds...
+Message sent: transfer_397.7962852762667 1 Application 3 -1 0 0 0 1
+Message Received: transfer_873.4436108450591 1 Application 1 -1 12 9 0 1
+Message Received: sending_to_3 1 Request 1 1 12 9 0 1
+Message sent: No_more_cohorts 1 Yes 3 1 12 9 0 2
+Taking a tentative checkpoint
+Message Received: sending_to_3 -1 Permanent 1 1 12 9 0 1
+Taking a permanent checkpoint
+Checkpoint: 1975.6473255687924
+3
+4
+12,9,0,2,
+-1,1,-1,-1,
+-1,1,-1,-1,
+-1,1,-1,-1,
+
+Resuming App...
+App sleeping for 436 milliseconds...
+Message sent: transfer_1380.8147997263743 2 Application 3 -1 12 9 0 3
+Message Received: transfer_1681.337173714277 2 Application 2 -1 10 0 7 0
+Message Received: transfer_915.0146690437468 2 Application 1 -1 12 12 6 3
+App sleeping for 219 milliseconds...
+Message sent: transfer_962.5586377864148 3 Application 3 -1 12 12 7 6
+App sleeping for 139 milliseconds...
+Message sent: transfer_142.80150685005577 4 Application 3 -1 12 12 7 7
+Message Received: transfer_33.49979705674409 3 Application 2 -1 13 14 11 7
+Message Received: sending_to_3 3 Request 1 1 12 14 7 6
+Message sent: sending_to_2 3 Request 3 1 13 14 11 8
+Taking a tentative checkpoint
+Message Received: sending_to_3 4 Request 2 1 13 14 11 7
+Message sent: I_have_already_taken_checkpoint_for_1 4 Yes 3 1 13 14 11 8
+Message Received: I_have_already_taken_checkpoint_for_1 3 Yes 2 1 13 14 11 7
+Message sent: Received_Yes_Ok_from_all_cohorts_1 -1 Yes 3 1 13 14 11 8
+Message Received: sending_to_3 -1 Permanent 1 1 12 14 7 6
+Message sent: sending_to_2 -1 Permanent 3 1 13 14 11 8
+Taking a permanent checkpoint
+Checkpoint: 2119.324021020716
+3
+4
+13,14,11,8,
+-1,2,3,-1,
+-1,1,4,-1,
+-1,3,4,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 2 1 13 14 11 7
+App sleeping for 275 milliseconds...
+Message sent: transfer_1849.4812871165045 5 Application 3 -1 13 14 11 9
+Message Received: transfer_937.1116194829181 4 Application 1 -1 13 16 11 9
+Message Received: transfer_1516.8794480862298 4 Application 2 -1 13 14 12 7
+App sleeping for 406 milliseconds...
+Message sent: transfer_1808.1126362498 6 Application 3 -1 13 16 12 12
+App sleeping for 120 milliseconds...
+Message sent: transfer_430.3803123187268 7 Application 3 -1 13 16 12 13
+Message Received: sending_to_3 6 Request 1 1 15 21 16 13
+Message sent: sending_to_2 4 Request 3 1 13 16 12 13
+Taking a tentative checkpoint
+Message Received: sending_to_3 7 Request 2 1 14 18 16 13
+Message sent: I_have_already_taken_checkpoint_for_1 7 Yes 3 1 13 16 12 13
+App sleeping for 434 milliseconds...
+App blocked for Checkpointing or Recovery...
+Message Received: I_have_already_taken_checkpoint_for_1 4 Yes 2 1 14 18 16 13
+Message sent: Received_Yes_Ok_from_all_cohorts_1 -1 Yes 3 1 13 16 12 13
+Message Received: sending_to_3 -1 Permanent 1 1 15 21 16 13
+Message sent: sending_to_2 -1 Permanent 3 1 13 16 12 13
+Taking a permanent checkpoint
+Checkpoint: 485.34085290483216
+3
+4
+13,16,12,13,
+-1,4,4,-1,
+-1,1,4,-1,
+-1,6,7,-1,
+
+Resuming App...
+Message sent: transfer_71.95620312530467 8 Application 3 -1 13 16 12 14
+Message Received: sending_to_3 -1 Permanent 2 1 14 18 16 13
+App sleeping for 207 milliseconds...
+Message sent: transfer_53.50605114906312 9 Application 3 -1 13 16 12 15
+App sleeping for 112 milliseconds...
+Message sent: transfer_188.65800111239392 10 Application 3 -1 13 16 12 16
+App sleeping for 189 milliseconds...
+Message sent: transfer_112.9410660170714 11 Application 3 -1 13 16 12 17
+Message Received: sending_to_3 10 Request 1 1 15 28 21 16
+Message sent: sending_to_2 4 Request 3 1 13 16 12 17
+Taking a tentative checkpoint
+Message Received: sending_to_3 8 Request 2 1 15 22 22 14
+Message sent: I_have_already_taken_checkpoint_for_1 8 Yes 3 1 13 16 12 17
+App sleeping for 226 milliseconds...
+App blocked for Checkpointing or Recovery...
+Message Received: I_have_already_taken_checkpoint_for_1 4 Yes 2 1 15 22 22 14
+Message sent: Received_Yes_Ok_from_all_cohorts_1 -1 Yes 3 1 13 16 12 17
+Message Received: sending_to_3 11 Permanent 1 1 15 29 21 17
+Message sent: sending_to_2 -1 Permanent 3 1 13 16 12 17
+Taking a permanent checkpoint
+Checkpoint: 58.27953150099903
+3
+4
+13,16,12,17,
+-1,4,4,-1,
+-1,1,4,-1,
+-1,11,8,-1,
+
+Resuming App...
+Message sent: transfer_57.09438064822468 12 Application 3 -1 13 16 12 18
+Message Received: sending_to_3 10 Request 1 2 15 29 21 16
+Message sent: No_more_cohorts 4 Yes 3 2 13 16 12 18
+Taking a tentative checkpoint
+Message Received: sending_to_3 -1 Permanent 2 1 15 22 22 14
+Message Received: sending_to_3 8 Request 2 2 15 22 22 14
+Message sent: I_have_already_taken_checkpoint_for_2 8 Yes 3 2 13 16 12 18
+App sleeping for 378 milliseconds...
+App blocked for Checkpointing or Recovery...
+Message Received: sending_to_3 -1 Permanent 2 2 15 22 22 14
+Taking a permanent checkpoint
+Checkpoint: 1.185150852774349
+3
+4
+13,16,12,18,
+-1,4,4,-1,
+-1,1,4,-1,
+-1,12,8,-1,
+
+Resuming App...
+Message sent: transfer_0.7469894907508927 13 Application 3 -1 13 16 12 19
+Message Received: sending_to_3 12 Permanent 1 2 15 30 21 18
+Message Received: transfer_1076.9092260455932 9 Application 1 -1 15 31 21 19
+Message Received: sending_to_3 8 Request 2 1 15 22 23 14
+Message sent: No_more_cohorts 4 Yes 3 1 15 31 21 20
+Taking a tentative checkpoint
+Message Received: sending_to_3 13 Request 1 1 15 31 21 19
+Message sent: I_have_already_taken_checkpoint_for_1 13 Yes 3 1 15 31 21 20
+Message Received: sending_to_3 -1 Permanent 1 1 15 31 21 19
+Taking a permanent checkpoint
+Checkpoint: 1077.3473874076167
+3
+4
+15,31,21,20,
+-1,9,4,-1,
+-1,1,4,-1,
+-1,13,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 2 1 15 22 23 14
+App sleeping for 471 milliseconds...
+Message sent: transfer_575.8556870591601 14 Application 3 -1 15 31 21 21
+Message Received: transfer_162.45322098340216 10 Application 1 -1 15 32 21 19
+Message Received: transfer_23.647861298668882 13 Application 2 -1 15 22 25 14
+Message Received: sending_to_3 8 Request 2 0 15 22 25 14
+Message sent: sending_to_1 10 Request 3 0 15 32 25 23
+Taking a tentative checkpoint
+Message Received: sending_to_3 14 Request 1 0 15 34 24 21
+Message sent: I_have_already_taken_checkpoint_for_0 14 Yes 3 0 15 32 25 23
+Message Received: I_have_already_taken_checkpoint_for_0 10 Yes 1 0 15 34 24 21
+Message sent: Received_Yes_Ok_from_all_cohorts_0 -1 Yes 3 0 15 32 25 23
+Message Received: sending_to_3 -1 Permanent 2 0 15 22 25 14
+Message sent: sending_to_1 -1 Permanent 3 0 15 32 25 23
+Taking a permanent checkpoint
+Checkpoint: 687.5927826305276
+3
+4
+15,32,25,23,
+-1,10,13,-1,
+-1,1,4,-1,
+-1,14,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 1 0 15 34 24 21
+App sleeping for 206 milliseconds...
+Message sent: transfer_429.03516670199855 15 Application 3 -1 15 32 25 24
+Message Received: sending_to_3 15 Request 1 1 15 39 28 24
+Message sent: sending_to_2 13 Request 3 1 15 32 25 24
+Taking a tentative checkpoint
+Message Received: sending_to_3 8 Request 2 1 15 38 28 24
+Message sent: I_have_already_taken_checkpoint_for_1 8 Yes 3 1 15 32 25 24
+Message Received: I_have_already_taken_checkpoint_for_1 13 Yes 2 1 15 38 28 24
+Message sent: Received_Yes_Ok_from_all_cohorts_1 -1 Yes 3 1 15 32 25 24
+Message Received: sending_to_3 -1 Permanent 1 1 15 39 28 24
+Message sent: sending_to_2 -1 Permanent 3 1 15 32 25 24
+Taking a permanent checkpoint
+Checkpoint: 258.55761592852906
+3
+4
+15,32,25,24,
+-1,10,13,-1,
+-1,1,4,-1,
+-1,15,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 2 1 15 38 28 24
+Message Received: sending_to_3 15 Request 1 1 15 42 28 24
+Message sent: sending_to_2 13 Request 3 1 15 32 25 24
+Taking a tentative checkpoint
+Message Received: sending_to_3 8 Request 2 1 15 40 29 24
+Message sent: I_have_already_taken_checkpoint_for_1 8 Yes 3 1 15 32 25 24
+Message Received: I_have_already_taken_checkpoint_for_1 13 Yes 2 1 15 40 29 24
+Message sent: Received_Yes_Ok_from_all_cohorts_1 -1 Yes 3 1 15 32 25 24
+Message Received: sending_to_3 -1 Permanent 1 1 15 42 28 24
+Message sent: sending_to_2 -1 Permanent 3 1 15 32 25 24
+Taking a permanent checkpoint
+Checkpoint: 258.55761592852906
+3
+4
+15,32,25,24,
+-1,10,13,-1,
+-1,1,4,-1,
+-1,15,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 2 1 15 40 29 24
+Message Received: sending_to_3 15 Request 1 1 15 42 28 24
+Message sent: sending_to_2 13 Request 3 1 15 32 25 24
+Taking a tentative checkpoint
+Message Received: sending_to_3 8 Request 2 1 15 40 29 24
+Message sent: I_have_already_taken_checkpoint_for_1 8 Yes 3 1 15 32 25 24
+Message Received: I_have_already_taken_checkpoint_for_1 13 Yes 2 1 15 40 29 24
+Message sent: Received_Yes_Ok_from_all_cohorts_1 -1 Yes 3 1 15 32 25 24
+Message Received: sending_to_3 -1 Permanent 1 1 15 42 28 24
+Message sent: sending_to_2 -1 Permanent 3 1 15 32 25 24
+Taking a permanent checkpoint
+Checkpoint: 258.55761592852906
+3
+4
+15,32,25,24,
+-1,10,13,-1,
+-1,1,4,-1,
+-1,15,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 2 1 15 40 29 24
+Message Received: sending_to_3 15 Request 1 1 15 42 28 24
+Message sent: sending_to_2 13 Request 3 1 15 32 25 24
+Taking a tentative checkpoint
+Message Received: sending_to_3 8 Request 2 1 15 40 29 24
+Message sent: I_have_already_taken_checkpoint_for_1 8 Yes 3 1 15 32 25 24
+Message Received: I_have_already_taken_checkpoint_for_1 13 Yes 2 1 15 40 29 24
+Message sent: Received_Yes_Ok_from_all_cohorts_1 -1 Yes 3 1 15 32 25 24
+Message Received: sending_to_3 -1 Permanent 1 1 15 42 28 24
+Message sent: sending_to_2 -1 Permanent 3 1 15 32 25 24
+Taking a permanent checkpoint
+Checkpoint: 258.55761592852906
+3
+4
+15,32,25,24,
+-1,10,13,-1,
+-1,1,4,-1,
+-1,15,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 2 1 15 40 29 24
+Message Received: sending_to_3 8 Request 2 0 15 40 29 24
+Message sent: sending_to_1 10 Request 3 0 15 32 25 24
+Taking a tentative checkpoint
+Message Received: sending_to_3 15 Request 1 0 15 42 28 24
+Message sent: I_have_already_taken_checkpoint_for_0 15 Yes 3 0 15 32 25 24
+Message Received: I_have_already_taken_checkpoint_for_0 10 Yes 1 0 15 42 28 24
+Message sent: Received_Yes_Ok_from_all_cohorts_0 -1 Yes 3 0 15 32 25 24
+Message Received: sending_to_3 -1 Permanent 1 0 15 42 28 24
+Message sent: sending_to_1 -1 Permanent 3 0 15 32 25 24
+Taking a permanent checkpoint
+Checkpoint: 258.55761592852906
+3
+4
+15,32,25,24,
+-1,10,13,-1,
+-1,1,4,-1,
+-1,15,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 2 0 15 40 29 24
+Message Received: sending_to_3 15 Request 1 1 15 42 28 24
+Message sent: sending_to_2 13 Request 3 1 15 32 25 24
+Taking a tentative checkpoint
+Message Received: sending_to_3 8 Request 2 1 15 40 29 24
+Message sent: I_have_already_taken_checkpoint_for_1 8 Yes 3 1 15 32 25 24
+Message Received: I_have_already_taken_checkpoint_for_1 13 Yes 2 1 15 40 29 24
+Message sent: Received_Yes_Ok_from_all_cohorts_1 -1 Yes 3 1 15 32 25 24
+Message Received: sending_to_3 -1 Permanent 1 1 15 42 28 24
+Message sent: sending_to_2 -1 Permanent 3 1 15 32 25 24
+Taking a permanent checkpoint
+Checkpoint: 258.55761592852906
+3
+4
+15,32,25,24,
+-1,10,13,-1,
+-1,1,4,-1,
+-1,15,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 2 1 15 40 29 24
+Message Received: sending_to_3 8 Request 2 2 15 40 29 24
+Message sent: sending_to_1 10 Request 3 2 15 32 25 24
+Taking a tentative checkpoint
+Message Received: sending_to_3 15 Request 1 2 15 42 28 24
+Message sent: I_have_already_taken_checkpoint_for_2 15 Yes 3 2 15 32 25 24
+Message Received: I_have_already_taken_checkpoint_for_2 10 Yes 1 2 15 42 28 24
+Message sent: Received_Yes_Ok_from_all_cohorts_2 -1 Yes 3 2 15 32 25 24
+Message Received: sending_to_3 -1 Permanent 2 2 15 40 29 24
+Message sent: sending_to_1 -1 Permanent 3 2 15 32 25 24
+Taking a permanent checkpoint
+Checkpoint: 258.55761592852906
+3
+4
+15,32,25,24,
+-1,10,13,-1,
+-1,1,4,-1,
+-1,15,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 1 2 15 42 28 24
+Message Received: sending_to_3 15 Request 1 1 15 42 28 24
+Message sent: sending_to_2 13 Request 3 1 15 32 25 24
+Taking a tentative checkpoint
+Message Received: sending_to_3 8 Request 2 1 15 40 29 24
+Message sent: I_have_already_taken_checkpoint_for_1 8 Yes 3 1 15 32 25 24
+Message Received: I_have_already_taken_checkpoint_for_1 13 Yes 2 1 15 40 29 24
+Message sent: Received_Yes_Ok_from_all_cohorts_1 -1 Yes 3 1 15 32 25 24
+Message Received: sending_to_3 -1 Permanent 1 1 15 42 28 24
+Message sent: sending_to_2 -1 Permanent 3 1 15 32 25 24
+Taking a permanent checkpoint
+Checkpoint: 258.55761592852906
+3
+4
+15,32,25,24,
+-1,10,13,-1,
+-1,1,4,-1,
+-1,15,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 2 1 15 40 29 24
+Message Received: sending_to_3 15 Request 1 1 15 42 28 24
+Message sent: sending_to_2 13 Request 3 1 15 32 25 24
+Taking a tentative checkpoint
+Message Received: sending_to_3 8 Request 2 1 15 40 29 24
+Message sent: I_have_already_taken_checkpoint_for_1 8 Yes 3 1 15 32 25 24
+Message Received: I_have_already_taken_checkpoint_for_1 13 Yes 2 1 15 40 29 24
+Message sent: Received_Yes_Ok_from_all_cohorts_1 -1 Yes 3 1 15 32 25 24
+Message Received: sending_to_3 -1 Permanent 1 1 15 42 28 24
+Message sent: sending_to_2 -1 Permanent 3 1 15 32 25 24
+Taking a permanent checkpoint
+Checkpoint: 258.55761592852906
+3
+4
+15,32,25,24,
+-1,10,13,-1,
+-1,1,4,-1,
+-1,15,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 2 1 15 40 29 24
+Message Received: sending_to_3 15 Request 1 0 15 42 28 24
+Message sent: sending_to_2 13 Request 3 0 15 32 25 24
+Taking a tentative checkpoint
+Message Received: sending_to_3 8 Request 2 0 15 40 29 24
+Message sent: I_have_already_taken_checkpoint_for_0 8 Yes 3 0 15 32 25 24
+Message Received: I_have_already_taken_checkpoint_for_0 13 Yes 2 0 15 40 29 24
+Message sent: Received_Yes_Ok_from_all_cohorts_0 -1 Yes 3 0 15 32 25 24
+Message Received: sending_to_3 -1 Permanent 2 0 15 40 29 24
+Message sent: sending_to_2 -1 Permanent 3 0 15 32 25 24
+Taking a permanent checkpoint
+Checkpoint: 258.55761592852906
+3
+4
+15,32,25,24,
+-1,10,13,-1,
+-1,1,4,-1,
+-1,15,8,-1,
+
+Resuming App...
+Message Received: sending_to_3 -1 Permanent 1 0 15 42 28 24
+Message Received: sending_to_3 8 Request 2 1 15 40 29 24
+Message sent: No_more_cohorts 13 Yes 3 1 15 32 25 24
+Taking a tentative checkpoint
